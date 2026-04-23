@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# [DEPRECATED] 仅用于 patent_01~05（已定版）。新专利请使用 tools/fill_template.py。
 """
 insert_figures_into_docx.py
 将已生成的插图插入到对应的专利 DOCX 文档中。

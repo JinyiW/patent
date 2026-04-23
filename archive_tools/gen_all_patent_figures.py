@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# [DEPRECATED] 仅用于 patent_01~05（已定版）。新专利请使用 tools/gen_figures.py。
 """批量生成 17 张专利技术插图"""
 import sys, time
 sys.path.insert(0, '/data/zhuanli/tools')

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# [DEPRECATED] 仅用于 patent_01（已定版）。新专利请使用 tools/fill_template.py。
 """Fill patent disclosure template with patent 01 content."""
 
 import re

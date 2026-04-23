@@ -1,0 +1,4 @@
+fig_1_system_architecture_0.png  图1 动捕精修任务分配系统架构示意图
+fig_2_method_flowchart_0.png  图2 任务分配方法流程图
+fig_3_bipartite_matching_0.png  图3 任务—精修师二部匹配与约束关系示意图
+fig_4_optimization_model_0.png  图4 混合整数线性规划模型结构示意图

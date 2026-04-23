@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# [DEPRECATED] 仅用于 patent_01~05（已定版）。新专利请使用 tools/fill_template.py。
 """
 md_to_docx_skill.py
 将中文专利 Markdown 文件转换为格式规范的 Word DOCX。

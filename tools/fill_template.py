@@ -809,62 +809,62 @@ def fill_table_cell(body, row_idx, cell_idx, value):
 
 # ── Image caption generation ──────────────────────────────────────────────
 
-# Common filename segments -> Chinese caption fragments
-_CAPTION_MAP = {
-    'system_architecture': '系统架构示意图',
-    'system_arch': '系统架构示意图',
-    'architecture': '架构示意图',
-    'pipeline': '流程总览图',
-    'framework': '框架流程图',
-    'flowchart': '流程图',
-    'flow': '流程图',
-    'comparison': '对比示意图',
-    'detection': '检测示意图',
-    'overview': '总览图',
-    'diagram': '示意图',
-}
 
+def _load_captions_file(patent_dir):
+    """Load captions from figures/captions.txt if it exists.
 
-def _generate_caption(fig_basename, fig_index):
-    """Generate a Chinese caption from a figure filename.
-    
-    e.g. 'fig_1_system_architecture_0.png' -> '图1 系统架构示意图'
+    Format (one per line):
+        fig_1_system_architecture_0.png  图1 系统架构示意图
+
+    Returns dict: {filename_stem: caption_text} or empty dict.
     """
-    # Strip extension and trailing _0, _1 etc.
-    name = os.path.splitext(fig_basename)[0]
-    name = re.sub(r'_\d+$', '', name)
+    captions_path = os.path.join(patent_dir, 'figures', 'captions.txt')
+    if not os.path.isfile(captions_path):
+        return {}
+    result = {}
+    with open(captions_path, encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith('#'):
+                continue
+            parts = line.split(None, 1)
+            if len(parts) == 2:
+                stem = os.path.splitext(parts[0])[0]  # strip .png
+                result[stem] = parts[1]
+    return result
 
-    # Remove fig_N_ prefix
-    name = re.sub(r'^fig_\d+_', '', name)
 
-    if not name:
-        return f"图{fig_index}"
+def _generate_caption(fig_basename, fig_index, captions_dict=None):
+    """Generate a Chinese caption for a figure.
 
-    # Try known mappings (longest match first)
-    for key in sorted(_CAPTION_MAP, key=len, reverse=True):
-        if key in name:
-            return f"图{fig_index} {_CAPTION_MAP[key]}"
+    Priority:
+      1. captions_dict (from figures/captions.txt)
+      2. Generic fallback: 图N 技术示意图
+    """
+    stem = os.path.splitext(fig_basename)[0]
 
-    # Fallback: convert underscores to spaces
-    readable = name.replace('_', ' ').strip()
-    return f"图{fig_index} {readable}"
+    # 1. From captions file
+    if captions_dict and stem in captions_dict:
+        return captions_dict[stem]
+
+    # 2. Fallback — always Chinese
+    return f"图{fig_index} 技术示意图"
 
 
 # ── Image placement ───────────────────────────────────────────────────────
 
-def _insert_images_into_document(body, image_rids, figure_files):
-    """Insert image paragraphs at relevant section positions.
+def _insert_images_into_document(body, image_rids, figure_files, captions_dict=None):
+    """Insert image paragraphs interleaved with text at relevant section positions.
 
-    Strategy:
-      - Figure 1: after "4.1产品侧" section heading
-      - Figure 2: after "4.2技术侧" section start
-      - Remaining figures: distributed evenly through the rest of section 4.2
-      - If section heading not found, append at end of document
+    Strategy: distribute ALL figures evenly across the entire content of
+    sections 4.1 and 4.2 combined, so images are spread out rather than
+    clustered together.
 
     Args:
         body: lxml body element
         image_rids: list of (rid, img_name, doc_pr_id, fig_file_basename)
         figure_files: list of full paths to figure files (for dimension reading)
+        captions_dict: dict from _load_captions_file (optional)
     """
     if not image_rids:
         return
@@ -872,7 +872,7 @@ def _insert_images_into_document(body, image_rids, figure_files):
     # Build caption for each figure
     captions = []
     for fig_idx, (rid, img_name, doc_pr_id, fig_basename) in enumerate(image_rids):
-        caption = _generate_caption(fig_basename, fig_idx + 1)
+        caption = _generate_caption(fig_basename, fig_idx + 1, captions_dict)
         captions.append(caption)
 
     def _get_para_text(p_el):
@@ -889,73 +889,57 @@ def _insert_images_into_document(body, image_rids, figure_files):
                 return i
         return -1
 
-    def _find_section_end(start_idx):
-        """Find the index of the last paragraph before the next major section heading."""
+    def _find_major_section_end(start_keyword):
+        """Find the end of a major section (4.1 or 4.2).
+        Ends at the next major section heading (4.2, 4.3, 5、 etc)."""
+        start_idx = _find_section_start(start_keyword)
+        if start_idx < 0:
+            return -1
         children = list(body)
-        next_heading_idx = len(children)
         for j in range(start_idx + 1, len(children)):
             child = children[j]
             if etree.QName(child.tag).localname != 'p':
                 continue
-            texts = _get_para_text(child)
-            if not texts or len(texts) > 80:
+            text = _get_para_text(child)
+            if not text:
                 continue
-            # Match section heading patterns
-            if (re.match(r'^\d+\.\d+\.\d+\s', texts) or
-                re.match(r'^\d+\.\d+[^\d]', texts) or
-                re.match(r'^\d+、', texts)):
-                next_heading_idx = j
-                break
-        target_idx = next_heading_idx - 1
-        if target_idx <= start_idx:
-            target_idx = start_idx
-        return target_idx
+            # Stop at next major heading: 4.2, 4.3, 5、 etc.
+            if (re.match(r'^4\.[23][^\d]', text) or
+                re.match(r'^[5-9]、', text)):
+                return j - 1
+        return len(children) - 1
 
-    # Determine insertion targets
+    # Determine the full range of paragraphs for image distribution:
+    # from 4.1产品侧 start to the end of 4.2技术侧
     product_idx = _find_section_start('4.1产品侧')
-    tech_idx = _find_section_start('4.2技术侧')
+    tech_end = _find_major_section_end('4.2技术侧')
 
-    # Collect insert operations: list of (anchor_element, rid, img_name, doc_pr_id, caption, fig_path)
+    if product_idx < 0:
+        product_idx = _find_section_start('4.2技术侧')
+    if tech_end < 0:
+        tech_end = len(list(body)) - 1
+
+    range_start = product_idx if product_idx >= 0 else 0
+    range_end = tech_end
+    range_len = range_end - range_start
+
+    # Collect insert operations
     insert_ops = []
+    n_figs = len(image_rids)
 
     for fig_i, (rid, img_name, doc_pr_id, fig_basename) in enumerate(image_rids):
         caption = captions[fig_i]
         fig_path = figure_files[fig_i] if fig_i < len(figure_files) else None
 
-        if fig_i == 0:
-            # Figure 1 -> after 4.1产品侧
-            if product_idx >= 0:
-                end_idx = _find_section_end(product_idx)
-                anchor = list(body)[end_idx]
-            else:
-                anchor = list(body)[-1]
-        elif fig_i == 1:
-            # Figure 2 -> after 4.2技术侧 start
-            if tech_idx >= 0:
-                # Insert right after the section heading (first few paragraphs)
-                children = list(body)
-                # Place after the heading itself
-                anchor = children[tech_idx]
-            else:
-                anchor = list(body)[-1]
+        if range_len > 0 and n_figs > 0:
+            # Distribute figures evenly: figure k goes at position (k+1)/(n+1) of the range
+            fraction = (fig_i + 1) / (n_figs + 1)
+            target_idx = range_start + max(1, int(range_len * fraction))
+            target_idx = min(target_idx, range_end)
         else:
-            # Remaining figures: distribute evenly in section 4.2
-            if tech_idx >= 0:
-                tech_end_idx = _find_section_end(tech_idx)
-                section_len = tech_end_idx - tech_idx
-                remaining_count = len(image_rids) - 2
-                fig_offset = fig_i - 2  # 0-based offset among remaining figures
-                if remaining_count > 0 and section_len > 0:
-                    # Distribute evenly: each figure at (offset+1)/(count+1) fraction
-                    fraction = (fig_offset + 1) / (remaining_count + 1)
-                    target_idx = tech_idx + max(1, int(section_len * fraction))
-                    target_idx = min(target_idx, tech_end_idx)
-                else:
-                    target_idx = tech_end_idx
-                anchor = list(body)[target_idx]
-            else:
-                anchor = list(body)[-1]
+            target_idx = len(list(body)) - 1
 
+        anchor = list(body)[target_idx]
         insert_ops.append((anchor, rid, img_name, doc_pr_id, caption, fig_path))
 
     # Insert in reverse order so earlier insertions don't shift later anchors.
@@ -1116,9 +1100,7 @@ def fill_patent(patent_dir):
     # 1. Fill table metadata
     print("  Filling table metadata...")
     fill_table_cell(body, 0, 1, title)                          # 交底书名称
-    fill_table_cell(body, 1, 1, "汪金奕")                       # 撰写人
     fill_table_cell(body, 1, 3, tech_area)                      # 产品技术名称
-    fill_table_cell(body, 2, 3, "andyjywang@tencent.com")       # 联络方式
 
     # 2. Fill sections
     section_map = [
@@ -1211,8 +1193,9 @@ def fill_patent(patent_dir):
         doc_pr_id += 1
 
     # Insert image paragraphs into document
+    captions_dict = _load_captions_file(patent_dir)
     if image_rids:
-        _insert_images_into_document(body, image_rids, figure_full_paths)
+        _insert_images_into_document(body, image_rids, figure_full_paths, captions_dict)
 
     # 4. Serialize
     print("  Serializing document...")

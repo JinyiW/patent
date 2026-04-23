@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# [DEPRECATED] 仅用于 patent_01~05（已定版）。新专利请使用 tools/fill_template.py。
 """
 batch_fill_patents.py
 Fill patents 02-05 into the 专利技术交底书模板 template.
