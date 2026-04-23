@@ -1,0 +1,2141 @@
+<?xml version="1.0" encoding="UTF-8"?><w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16du="http://schemas.microsoft.com/office/word/2023/wordml/word16du" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh wp14">
+  <w:background w:color="FFFFFF"/>
+  <w:body>
+    <w:p w14:paraId="49732664" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRPr="00187194" w:rsidRDefault="00D75CFA">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t>专利技术交底书</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="619495A1" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRPr="00D36B32" w:rsidRDefault="00D75CFA">
+      <w:pPr>
+        <w:autoSpaceDN w:val="0"/>
+        <w:jc w:val="left"/>
+        <w:textAlignment w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="FF0000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>标注 *</w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="FF0000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="FF0000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>为必填项</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="8776" w:type="dxa"/>
+        <w:tblLayout w:type="fixed"/>
+        <w:tblLook w:val="0000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="0" w:noVBand="0"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="2235"/>
+        <w:gridCol w:w="1842"/>
+        <w:gridCol w:w="2268"/>
+        <w:gridCol w:w="2431"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="00D75CFA" w:rsidRPr="003164E3" w14:paraId="31F2411B" w14:textId="77777777" w:rsidTr="00503F76">
+        <w:trPr>
+          <w:trHeight w:val="391"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="2235" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="8" w:space="0" w:color="000000"/>
+              <w:left w:val="single" w:sz="8" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="1C3D3062" w14:textId="51B8C60E" w:rsidR="00D75CFA" w:rsidRPr="003164E3" w:rsidRDefault="00B5409A" w:rsidP="00503F76">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:color w:val="FF0000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>*</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>交底书名称</w:t>
+            </w:r>
+            
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="6541" w:type="dxa"/>
+            <w:gridSpan w:val="3"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="8" w:space="0" w:color="000000"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:right w:val="single" w:sz="8" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="7275F2D8" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRPr="003164E3" w:rsidRDefault="00D75CFA" w:rsidP="00503F76">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="0000FF"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00DD03DB" w:rsidRPr="003164E3" w14:paraId="15DBB54D" w14:textId="77777777" w:rsidTr="00EB55E8">
+        <w:trPr>
+          <w:trHeight w:val="423"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="2235" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:left w:val="single" w:sz="8" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="35B86D5E" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRPr="003164E3" w:rsidRDefault="00B5409A" w:rsidP="00503F76">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:color w:val="FF0000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>*</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>交底书</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>撰写人</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1842" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="7F4890B4" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRPr="003164E3" w:rsidRDefault="00D75CFA" w:rsidP="00503F76">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="0000FF"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="2268" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="1DE43644" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRPr="003164E3" w:rsidRDefault="00B5409A">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:color w:val="FF0000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>*</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>本发明</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>涉及产品和技术</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="2431" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:right w:val="single" w:sz="8" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="57027F55" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRPr="003164E3" w:rsidRDefault="00D75CFA">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="0000FF"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00DD03DB" w:rsidRPr="003164E3" w14:paraId="39AB78BD" w14:textId="77777777" w:rsidTr="00EB55E8">
+        <w:trPr>
+          <w:trHeight w:val="408"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="2235" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:left w:val="single" w:sz="8" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="28C70126" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRPr="003164E3" w:rsidRDefault="00DD03DB" w:rsidP="00503F76">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:jc w:val="left"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>竞对或竞品名称（如有）</w:t>
+            </w:r>
+            
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1842" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:right w:val="single" w:sz="8" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="7583CECA" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRPr="003164E3" w:rsidRDefault="00D75CFA" w:rsidP="00503F76">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:jc w:val="left"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="2268" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:right w:val="single" w:sz="8" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="5CA1203B" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRPr="003164E3" w:rsidRDefault="00C70A64">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:jc w:val="left"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>撰写人联络方式</w:t>
+            </w:r>
+            
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="2431" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:right w:val="single" w:sz="8" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="2C5E5339" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRPr="003164E3" w:rsidRDefault="00D75CFA">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:jc w:val="left"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00766A82" w:rsidRPr="003164E3" w14:paraId="731F9648" w14:textId="77777777" w:rsidTr="00C70A64">
+        <w:trPr>
+          <w:trHeight w:val="408"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="2235" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:left w:val="single" w:sz="8" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="0243CBFF" w14:textId="77777777" w:rsidR="00B138EC" w:rsidRDefault="00B5409A" w:rsidP="00503F76">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:jc w:val="left"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:color w:val="FF0000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>*</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>专利保护的目的</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="7DF5A73C" w14:textId="77777777" w:rsidR="00766A82" w:rsidRPr="00DD03DB" w:rsidRDefault="00B138EC" w:rsidP="00503F76">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:jc w:val="left"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>（</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:fldChar w:fldCharType="begin">
+                <w:ffData>
+                  <w:name w:val=""/>
+                  <w:enabled/>
+                  <w:calcOnExit w:val="0"/>
+                  <w:checkBox>
+                    <w:size w:val="12"/>
+                    <w:default w:val="0"/>
+                  </w:checkBox>
+                </w:ffData>
+              </w:fldChar>
+            <w:instrText xml:space="preserve"> FORMCHECKBOX </w:instrText><w:fldChar w:fldCharType="separate"/><w:fldChar w:fldCharType="end"/></w:r>
+            
+            
+            
+            
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>双击选中，可多选）</w:t>
+            </w:r>
+            
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="6541" w:type="dxa"/>
+            <w:gridSpan w:val="3"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:right w:val="single" w:sz="8" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="541DB271" w14:textId="77777777" w:rsidR="00751A53" w:rsidRDefault="00C93E82" w:rsidP="00503F76">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:spacing w:line="276" w:lineRule="auto"/>
+              <w:jc w:val="left"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:fldChar w:fldCharType="begin">
+                <w:ffData>
+                  <w:name w:val=""/>
+                  <w:enabled/>
+                  <w:calcOnExit w:val="0"/>
+                  <w:checkBox>
+                    <w:size w:val="12"/>
+                    <w:default w:val="0"/>
+                  </w:checkBox>
+                </w:ffData>
+              </w:fldChar>
+            <w:instrText xml:space="preserve"> FORMCHECKBOX </w:instrText><w:fldChar w:fldCharType="separate"/><w:fldChar w:fldCharType="end"/></w:r>
+            
+            
+            
+            
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>标准技术相关</w:t>
+            </w:r>
+            
+            
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+                <w:u w:val="single"/>
+              </w:rPr>
+              <w:t xml:space="preserve">                              ;</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="12537D62" w14:textId="77777777" w:rsidR="00C93E82" w:rsidRDefault="00C93E82" w:rsidP="00503F76">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:spacing w:line="276" w:lineRule="auto"/>
+              <w:jc w:val="left"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:fldChar w:fldCharType="begin">
+                <w:ffData>
+                  <w:name w:val=""/>
+                  <w:enabled/>
+                  <w:calcOnExit w:val="0"/>
+                  <w:checkBox>
+                    <w:size w:val="12"/>
+                    <w:default w:val="0"/>
+                  </w:checkBox>
+                </w:ffData>
+              </w:fldChar>
+            <w:instrText xml:space="preserve"> FORMCHECKBOX </w:instrText><w:fldChar w:fldCharType="separate"/><w:fldChar w:fldCharType="end"/></w:r>
+            
+            
+            
+            
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>维权目的相关</w:t>
+            </w:r>
+            
+            
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+                <w:u w:val="single"/>
+              </w:rPr>
+              <w:t xml:space="preserve">                          ;</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="27FDD465" w14:textId="77777777" w:rsidR="00751A53" w:rsidRDefault="00C93E82" w:rsidP="00503F76">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:spacing w:line="276" w:lineRule="auto"/>
+              <w:jc w:val="left"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:fldChar w:fldCharType="begin">
+                <w:ffData>
+                  <w:name w:val=""/>
+                  <w:enabled/>
+                  <w:calcOnExit w:val="0"/>
+                  <w:checkBox>
+                    <w:size w:val="12"/>
+                    <w:default w:val="0"/>
+                  </w:checkBox>
+                </w:ffData>
+              </w:fldChar>
+            <w:instrText xml:space="preserve"> FORMCHECKBOX </w:instrText><w:fldChar w:fldCharType="separate"/><w:fldChar w:fldCharType="end"/></w:r>
+            
+            
+            
+            
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>原创产品功能或技术</w:t>
+            </w:r>
+            
+            
+          </w:p>
+          <w:p w14:paraId="4FC9FE95" w14:textId="77777777" w:rsidR="00751A53" w:rsidRDefault="00C93E82" w:rsidP="00503F76">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:spacing w:line="276" w:lineRule="auto"/>
+              <w:jc w:val="left"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:fldChar w:fldCharType="begin">
+                <w:ffData>
+                  <w:name w:val=""/>
+                  <w:enabled/>
+                  <w:calcOnExit w:val="0"/>
+                  <w:checkBox>
+                    <w:size w:val="12"/>
+                    <w:default w:val="0"/>
+                  </w:checkBox>
+                </w:ffData>
+              </w:fldChar>
+            <w:instrText xml:space="preserve"> FORMCHECKBOX </w:instrText><w:fldChar w:fldCharType="separate"/><w:fldChar w:fldCharType="end"/></w:r>
+            
+            
+            
+            
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>奖项申报专利相关</w:t>
+            </w:r>
+            
+          </w:p>
+          <w:p w14:paraId="13387672" w14:textId="77777777" w:rsidR="00751A53" w:rsidRDefault="00C93E82" w:rsidP="00503F76">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:spacing w:line="276" w:lineRule="auto"/>
+              <w:jc w:val="left"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:fldChar w:fldCharType="begin">
+                <w:ffData>
+                  <w:name w:val=""/>
+                  <w:enabled/>
+                  <w:calcOnExit w:val="0"/>
+                  <w:checkBox>
+                    <w:size w:val="12"/>
+                    <w:default w:val="0"/>
+                  </w:checkBox>
+                </w:ffData>
+              </w:fldChar>
+            <w:instrText xml:space="preserve"> FORMCHECKBOX </w:instrText><w:fldChar w:fldCharType="separate"/><w:fldChar w:fldCharType="end"/></w:r>
+            
+            
+            
+            
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>合同交付相关</w:t>
+            </w:r>
+            
+          </w:p>
+          <w:p w14:paraId="78249E7F" w14:textId="77777777" w:rsidR="00751A53" w:rsidRDefault="00924B73" w:rsidP="00503F76">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:spacing w:line="276" w:lineRule="auto"/>
+              <w:jc w:val="left"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:fldChar w:fldCharType="begin">
+                <w:ffData>
+                  <w:name w:val=""/>
+                  <w:enabled/>
+                  <w:calcOnExit w:val="0"/>
+                  <w:checkBox>
+                    <w:size w:val="12"/>
+                    <w:default w:val="0"/>
+                  </w:checkBox>
+                </w:ffData>
+              </w:fldChar>
+            <w:instrText xml:space="preserve"> FORMCHECKBOX </w:instrText><w:fldChar w:fldCharType="separate"/><w:fldChar w:fldCharType="end"/></w:r>
+            
+            
+            
+            
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>功能或技术改进</w:t>
+            </w:r>
+            
+            
+          </w:p>
+          <w:p w14:paraId="2FE158FC" w14:textId="77777777" w:rsidR="00AE2865" w:rsidRPr="00751A53" w:rsidRDefault="007442E8" w:rsidP="00503F76">
+            <w:pPr>
+              <w:autoSpaceDN w:val="0"/>
+              <w:spacing w:line="276" w:lineRule="auto"/>
+              <w:jc w:val="left"/>
+              <w:textAlignment w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:fldChar w:fldCharType="begin">
+                <w:ffData>
+                  <w:name w:val=""/>
+                  <w:enabled/>
+                  <w:calcOnExit w:val="0"/>
+                  <w:checkBox>
+                    <w:size w:val="12"/>
+                    <w:default w:val="0"/>
+                  </w:checkBox>
+                </w:ffData>
+              </w:fldChar>
+            <w:instrText xml:space="preserve"> FORMCHECKBOX </w:instrText><w:fldChar w:fldCharType="separate"/><w:fldChar w:fldCharType="end"/></w:r>
+            
+            
+            
+            
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>其他</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="1DD54716" w14:textId="77777777" w:rsidR="00766A82" w:rsidRDefault="00766A82" w:rsidP="00F100C3">
+      <w:pPr>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:bookmarkStart w:id="0" w:name="_Hlk533691270"/>
+    </w:p>
+    <w:p w14:paraId="1A14E572" w14:textId="77777777" w:rsidR="00E86347" w:rsidRDefault="00E86347" w:rsidP="00516FAB">
+      <w:pPr>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>重要提醒（预计阅读时间</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>2</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>分钟，提交立项时可删除蓝色字体部份）：</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="2EB300B6" w14:textId="77777777" w:rsidR="00617E8C" w:rsidRPr="00617E8C" w:rsidRDefault="00617E8C" w:rsidP="00516FAB">
+      <w:pPr>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>1、诚实信用原则：</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>请确保此前发明人没有就相同的技术方案提交过专利，同时确保交底书中涉及的技术方案不是现有技术（对现有技术的改进不包含在内）。</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="242F05BC" w14:textId="77777777" w:rsidR="00E86347" w:rsidRPr="00EB55E8" w:rsidRDefault="00617E8C" w:rsidP="00516FAB">
+      <w:pPr>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>2</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>、交底书需清楚完整：</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>请详细且清楚地撰写本技术交底书：</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="3AFBB8F1" w14:textId="77777777" w:rsidR="00B712A2" w:rsidRPr="00EB55E8" w:rsidRDefault="00B712A2" w:rsidP="00516FAB">
+      <w:pPr>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>有产品功能或交互表现的方案：在产品侧需要具有应用场景图和GUI交互图，对于不同场景切换需要有动态切换示意图或GUI变化图，并需要结合附图清楚描述产品表现的创新点，同时在技术侧描述有详细的流程图或时序图，结合附图对主要技术方案描述清楚，并且清楚完整描述具体的技术细节实现方案，优选地，交底书有至少两个不同应用场景；</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="65F2BF81" w14:textId="77777777" w:rsidR="00B712A2" w:rsidRPr="00EB55E8" w:rsidRDefault="00B712A2" w:rsidP="00516FAB">
+      <w:pPr>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>对于产品表现不明显的方案：在产品侧需要有应用场景和应用产品说明，最好有相应附图辅助说明，技术侧需要从各个层面对技术方案进行清楚完整说明，如对相关背景知识，技术架构，应用环境和技术具体实现细节都有清楚完整说明，附图丰富，提供多种层面或多种角度的附图，以使阅读人能够快速理解本方案以及本方案的发明点；优选地，交底书提供两到三个扩展方案。</w:t>
+      </w:r>
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="2CA99C6B" w14:textId="77777777" w:rsidR="00E86347" w:rsidRPr="00B703A1" w:rsidRDefault="00617E8C" w:rsidP="00516FAB">
+      <w:pPr>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>3</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>、</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>交底书需未对外公开：</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>本交底书记载的产品或技术方案需要确保没有对外公开过， 如对外发布产品、公测产品、发表论文、对外宣传、开源、提交标准提案等，如果在提交专利立项之后有发布预期，需要填写未来对外发布时间。</w:t>
+      </w:r>
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="01E28593" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRPr="007A6927" w:rsidRDefault="00617E8C" w:rsidP="007A6927">
+      <w:pPr>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>、</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>填写注意事项：</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>撰写交底书过程中如有不清楚之处，一方面可以参考相关示范（点击相关链接查看腾讯文档），另一方面也可以咨询部门的对接专利工程师（点击</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      
+      <w:hyperlink r:id="rId7" w:history="1">
+        <w:r>
+          <w:rPr>
+            <w:rStyle w:val="a3"/>
+            <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+            <w:sz w:val="18"/>
+            <w:szCs w:val="18"/>
+          </w:rPr>
+          <w:t>https://patent.woa.com</w:t>
+        </w:r>
+      </w:hyperlink>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>查看对接专利工程师的企业微信）。</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="6A2AFD91" w14:textId="77777777" w:rsidR="00E86347" w:rsidRPr="004670B1" w:rsidRDefault="00E86347" w:rsidP="00B5409A">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:bookmarkEnd w:id="0"/>
+    <w:p w14:paraId="0E4E811E" w14:textId="77777777" w:rsidR="000F0257" w:rsidRDefault="007A6927" w:rsidP="000F0257">
+      <w:pPr>
+        <w:ind w:firstLineChars="200" w:firstLine="420"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:b/>
+          <w:bCs/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:b/>
+          <w:bCs/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:br w:type="page"/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:lastRenderedPageBreak/>
+        <w:t>专利交底书正文</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="74BC136B" w14:textId="77777777" w:rsidR="000F0257" w:rsidRDefault="00BE69FD" w:rsidP="000F0257">
+      <w:pPr>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:hyperlink r:id="rId8" w:history="1">
+        <w:r>
+          <w:rPr>
+            <w:rStyle w:val="a3"/>
+            <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+            <w:b/>
+            <w:bCs/>
+            <w:sz w:val="18"/>
+            <w:szCs w:val="18"/>
+          </w:rPr>
+          <w:t>（</w:t>
+        </w:r>
+        <w:r>
+          <w:rPr>
+            <w:rStyle w:val="a3"/>
+            <w:rFonts w:ascii="Apple Color Emoji" w:eastAsia="Apple Color Emoji" w:hAnsi="Apple Color Emoji" w:cs="Apple Color Emoji" w:hint="eastAsia"/>
+            <w:b/>
+            <w:bCs/>
+            <w:sz w:val="18"/>
+            <w:szCs w:val="18"/>
+          </w:rPr>
+          <w:t>👉</w:t>
+        </w:r>
+        <w:r>
+          <w:rPr>
+            <w:rStyle w:val="a3"/>
+            <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+            <w:b/>
+            <w:bCs/>
+            <w:sz w:val="18"/>
+            <w:szCs w:val="18"/>
+          </w:rPr>
+          <w:t>戳此处查看交底书撰写示范）</w:t>
+        </w:r>
+        
+        
+      </w:hyperlink>
+    </w:p>
+    <w:p w14:paraId="6E41E090" w14:textId="77777777" w:rsidR="00B46AB6" w:rsidRPr="00AF4E63" w:rsidRDefault="00B46AB6" w:rsidP="000F0257">
+      <w:pPr>
+        <w:ind w:firstLineChars="200" w:firstLine="360"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="7050D558" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRPr="00B46AB6" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="6815737F" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRPr="003F57CF" w:rsidRDefault="00E86347" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>1、</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>【关键术语】</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>本发明涉及到的关键术语和定义</w:t>
+      </w:r>
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="19FCC9F2" w14:textId="77777777" w:rsidR="00A75D12" w:rsidRDefault="00A75D12" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="11DC1798" w14:textId="77777777" w:rsidR="00A75D12" w:rsidRDefault="00A75D12" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="4381CB0E" w14:textId="77777777" w:rsidR="00A75D12" w:rsidRDefault="00A75D12" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="6557B1B3" w14:textId="77777777" w:rsidR="00A75D12" w:rsidRDefault="00A75D12" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="70490328" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRPr="003F57CF" w:rsidRDefault="00E86347" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>2</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>、</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>【发明构思】</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>本发明涉及到的技术关键点或功能关键点介绍</w:t>
+      </w:r>
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>（必填）</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="3C0AFB49" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="0C56ECC6" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="7DC625D1" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="35A5C47A" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="336F5869" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRPr="003F57CF" w:rsidRDefault="00087110" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>3</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>、</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>【背景技术】</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>与本发明最相近的现有技术</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="519F70B0" w14:textId="77777777" w:rsidR="002E7E7C" w:rsidRPr="003F57CF" w:rsidRDefault="00087110" w:rsidP="002E7E7C">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>3.1</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>相关背景描述，以及现有技术的技术方案</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>（必填）</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="6CB2E0C8" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRPr="003F57CF" w:rsidRDefault="00D75CFA" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="2566587C" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="625D6263" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="33946BE6" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="5FFC1AAA" w14:textId="77777777" w:rsidR="002E7E7C" w:rsidRPr="003F57CF" w:rsidRDefault="00087110" w:rsidP="002E7E7C">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>3.2</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>现有技术的缺点或尚未解决的问题，以及本专利技术方案可以解决的问题</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>（必填）</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="6597C9DE" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRPr="003F57CF" w:rsidRDefault="00D75CFA" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="0B2828E3" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRDefault="00D75CFA" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="1EB53AC6" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="299C7B26" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRPr="003164E3" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="732D23A3" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRPr="003F57CF" w:rsidRDefault="004670B1" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>、</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>【发明内容】</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">本专利方案的详细阐述（图文并茂） </w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="25BD2551" w14:textId="77777777" w:rsidR="002E7E7C" w:rsidRPr="003F57CF" w:rsidRDefault="004670B1" w:rsidP="002E7E7C">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>.1产品侧</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>（必填）</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="644D6D10" w14:textId="77777777" w:rsidR="00D75CFA" w:rsidRPr="003F57CF" w:rsidRDefault="00D75CFA" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="095DFA73" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRPr="00E156EF" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="755DB603" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="271C7FB0" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRPr="003164E3" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="0B5B3A50" w14:textId="77777777" w:rsidR="002E7E7C" w:rsidRPr="003F57CF" w:rsidRDefault="003F57CF" w:rsidP="002E7E7C">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>.2技术侧</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>（必填）</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="45D8CB74" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="29020A6B" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="4E566637" w14:textId="77777777" w:rsidR="002E7E7C" w:rsidRDefault="002E7E7C" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="639C206C" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="7794C445" w14:textId="77777777" w:rsidR="006D5932" w:rsidRPr="003164E3" w:rsidRDefault="006D5932" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>4</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>.3</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>专利方案所产生的有益效果</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>（必填）</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="213A80A2" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:b/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="5C657A2D" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:b/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="3C0CFA72" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:b/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="58F0C90B" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRPr="003164E3" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:b/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="285D9ED6" w14:textId="77777777" w:rsidR="00590428" w:rsidRDefault="00590428" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>5</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>、</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑" w:hint="eastAsia"/>
+          <w:bCs/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t>参考文献（如：专利/论文/网页/期刊）</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2AA34A8A" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="556F5EF5" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="2C9ABA24" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="46E3C873" w14:textId="77777777" w:rsidR="00B5409A" w:rsidRPr="003164E3" w:rsidRDefault="00B5409A" w:rsidP="00D36B32">
+      <w:pPr>
+        <w:spacing w:line="276" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="微软雅黑" w:eastAsia="微软雅黑" w:hAnsi="微软雅黑"/>
+          <w:color w:val="0000FF"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:sectPr w:rsidR="00B5409A" w:rsidRPr="003164E3">
+      <w:headerReference w:type="even" r:id="rId9"/>
+      <w:headerReference w:type="default" r:id="rId10"/>
+      <w:footerReference w:type="even" r:id="rId11"/>
+      <w:footerReference w:type="default" r:id="rId12"/>
+      <w:headerReference w:type="first" r:id="rId13"/>
+      <w:footerReference w:type="first" r:id="rId14"/>
+      <w:pgSz w:w="11906" w:h="16838"/>
+      <w:pgMar w:top="1440" w:right="1800" w:bottom="1440" w:left="1800" w:header="851" w:footer="992" w:gutter="0"/>
+      <w:cols w:space="720"/>
+      <w:docGrid w:type="lines" w:linePitch="312"/>
+    </w:sectPr>
+  </w:body>
+</w:document>
