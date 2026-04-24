@@ -1,0 +1,4 @@
+fig_1_two_stage_overview_0.png  图1 两阶段蒙皮权重生成系统总体架构图
+fig_2_vae_stage_0.png  图2 逐骨变分自编码器（Per-Bone Shape VAE）架构图
+fig_3_dit_stage_0.png  图3 潜空间流匹配扩散变换器（DiT）架构与流匹配过程示意图
+fig_4_latent_space_0.png  图4 逐骨蒙皮域分解与结构化潜空间示意图

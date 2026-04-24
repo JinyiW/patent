@@ -73,4 +73,4 @@ zhuanli/
 ## 技术栈
 - 公式：LaTeX → MathML → OMML（`latex2mathml` + `mathml2omml`）
 - 模板操作：`lxml` 直接操作 OOXML
-- 插图：Gemini text-to-image API
+- 插图：Gemini text-to-image API，顶会论文风格（SIGGRAPH/NeurIPS 配色，白底矢量感，非黑白线条）

@@ -1,0 +1,4 @@
+fig_1_system_overview_0.png  图1 骨骼选择与权重解码级联系统总体架构图
+fig_2_hourglass_transformer_0.png  图2 沙漏型自回归 Transformer 架构示意图
+fig_3_tokenization_0.png  图3 骨骼选择序列标记化方案示意图
+fig_4_dpo_sampling_0.png  图4 多样性采样与 DPO 偏好优化流程图

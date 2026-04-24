@@ -25,12 +25,19 @@ from remote_image_generator import generate_images_with_remote_api
 
 PATENTS_DIR = os.path.join(os.path.dirname(__file__), '..', 'patents')
 
-# 通用前缀 prompt（黑白线条专利技术示意图风格）
+# 通用前缀 prompt（顶会论文风格：SIGGRAPH/NeurIPS 配色）
 STYLE_PROMPT = (
-    "Generate a clean, black-and-white technical diagram suitable for a patent disclosure document. "
-    "Use simple lines, boxes, and arrows. Label all elements in Chinese. "
-    "The style should be minimalist, professional, and clearly readable when printed. "
-    "Do NOT use colors, gradients, or decorative elements. "
+    "Create a high-quality technical figure in the style of a top-tier computer graphics "
+    "conference paper (SIGGRAPH/NeurIPS). "
+    "Use a clean white background with soft, modern color palette: "
+    "light blue (#4A90D9), warm orange (#E8A849), soft green (#5CB85C), "
+    "muted purple (#9B59B6), and light gray (#F0F0F0) for backgrounds. "
+    "Use clean vector-style boxes with rounded corners, neat arrows, "
+    "and professional sans-serif typography. Label all text in English. "
+    "The diagram should look publication-ready, with consistent spacing, "
+    "alignment, and visual hierarchy. "
+    "Do NOT use hand-drawn style, 3D effects, or decorative elements. "
+    "Keep it minimal and elegant. "
 )
 
 

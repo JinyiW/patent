@@ -61,4 +61,4 @@ python tools/fill_template.py patent_06    # 填充模板，图文交叉插入�
 - 公式：LaTeX → MathML → OMML（Word 原生可编辑公式）
 - 模板操作：`lxml` 直接操作 OOXML
 - 依赖：`latex2mathml`, `mathml2omml`, `lxml`
-- 插图：Gemini text-to-image API，黑白线条技术示意图
+- 插图：Gemini text-to-image API，顶会论文风格（SIGGRAPH/NeurIPS 配色）

@@ -7,12 +7,93 @@ from typing import List, Optional
 import requests
 
 
-DEFAULT_MODEL = "gemini-3.1-flash-image-preview"
-DEFAULT_BASE_URL = "http://21.214.128.212/llm-service/gcs/data_label/publishers/google/models"
+# ============================================================
+# Backend: GPT-Image-2 (Azure proxy) — default
+# ============================================================
+GPT_IMAGE_HOST = "api.gameai-llm.woa.com"
+GPT_IMAGE_ENDPOINT = f"http://{GPT_IMAGE_HOST}/llm-service/azure/public"
+GPT_IMAGE_MODEL = "gpt-image-2"
+GPT_IMAGE_API_VERSION = "2025-04-01-preview"
+GPT_IMAGE_QUALITY = "low"
+
+# ============================================================
+# Backend: Gemini (legacy fallback)
+# ============================================================
+GEMINI_MODEL = "gemini-3.1-flash-image-preview"
+GEMINI_BASE_URL = "http://21.214.128.212/llm-service/gcs/data_label/publishers/google/models"
+
+# Shared token
 DEFAULT_TOKEN = "vMOLhJPrI4i9yG7NspmqAV5tdk1EonxX"
 
+# Default backend
+DEFAULT_BACKEND = "gpt-image-2"  # or "gemini"
 
-class ImageGenerator:
+
+# ============================================================
+# GPT-Image-2 backend
+# ============================================================
+class GPTImageBackend:
+    @staticmethod
+    def generate(
+        prompt: str,
+        output_dir: str,
+        output_name_prefix: str,
+        token: Optional[str] = None,
+        size: str = "1024x1024",
+        quality: str = GPT_IMAGE_QUALITY,
+        timeout_sec: int = 600,
+    ) -> List[str]:
+        if token is None:
+            token = os.getenv("REMOTE_IMAGE_API_TOKEN", DEFAULT_TOKEN)
+
+        url = (
+            f"{GPT_IMAGE_ENDPOINT}/openai/deployments/{GPT_IMAGE_MODEL}"
+            f"/images/generations?api-version={GPT_IMAGE_API_VERSION}"
+        )
+        headers = {
+            "Content-Type": "application/json",
+            "api-key": token,
+        }
+        payload = {
+            "prompt": prompt,
+            "size": size,
+            "n": 1,
+            "quality": quality,
+        }
+
+        response = requests.post(url, headers=headers, json=payload, timeout=timeout_sec)
+        response.raise_for_status()
+        res = response.json()
+
+        saved_paths: List[str] = []
+        data = res.get("data", [])
+        os.makedirs(output_dir, exist_ok=True)
+        for index, item in enumerate(data):
+            b64 = item.get("b64_json")
+            if b64:
+                fname = f"{output_name_prefix}_{index}.png"
+                path = os.path.join(output_dir, fname)
+                with open(path, "wb") as f:
+                    f.write(base64.b64decode(b64))
+                saved_paths.append(path)
+                print(f"\nImage successfully saved to {path}")
+
+        if not saved_paths:
+            print("\nNo image data found in the response to save.")
+
+        usage = res.get("usage", {})
+        if usage:
+            print(f"  Tokens: input={usage.get('input_tokens', '?')}, "
+                  f"output={usage.get('output_tokens', '?')}, "
+                  f"total={usage.get('total_tokens', '?')}")
+
+        return saved_paths
+
+
+# ============================================================
+# Gemini backend (legacy)
+# ============================================================
+class GeminiBackend:
     @staticmethod
     def encode_image(image_path: str) -> str:
         with open(image_path, "rb") as image_file:
@@ -22,8 +103,8 @@ class ImageGenerator:
     def send_request(
         prompt: str,
         image_base64: Optional[str] = None,
-        model: str = DEFAULT_MODEL,
-        base_url: str = DEFAULT_BASE_URL,
+        model: str = GEMINI_MODEL,
+        base_url: str = GEMINI_BASE_URL,
         token: Optional[str] = None,
         timeout_sec: int = 120,
     ) -> requests.Response:
@@ -120,71 +201,58 @@ class ImageGenerator:
         return saved_paths
 
     @staticmethod
-    def generate_image(
-        image_path: str,
+    def generate(
         prompt: str,
         output_dir: str,
         output_name_prefix: str,
-        model: str = DEFAULT_MODEL,
-        base_url: str = DEFAULT_BASE_URL,
+        image_path: Optional[str] = None,
         token: Optional[str] = None,
     ) -> List[str]:
-        image_base64 = ImageGenerator.encode_image(image_path)
-        response = ImageGenerator.send_request(
-            prompt=prompt,
-            image_base64=image_base64,
-            model=model,
-            base_url=base_url,
-            token=token,
+        image_base64 = None
+        if image_path:
+            image_base64 = GeminiBackend.encode_image(image_path)
+        response = GeminiBackend.send_request(
+            prompt=prompt, image_base64=image_base64, token=token,
         )
         response.raise_for_status()
-        return ImageGenerator.parse_response(response, output_dir, output_name_prefix)
-
-    @staticmethod
-    def generate_from_text(
-        prompt: str,
-        output_dir: str,
-        output_name_prefix: str,
-        model: str = DEFAULT_MODEL,
-        base_url: str = DEFAULT_BASE_URL,
-        token: Optional[str] = None,
-    ) -> List[str]:
-        response = ImageGenerator.send_request(
-            prompt=prompt,
-            image_base64=None,
-            model=model,
-            base_url=base_url,
-            token=token,
-        )
-        response.raise_for_status()
-        return ImageGenerator.parse_response(response, output_dir, output_name_prefix)
+        return GeminiBackend.parse_response(response, output_dir, output_name_prefix)
 
 
+# ============================================================
+# Unified API (drop-in replacement for old interface)
+# ============================================================
 def generate_images_with_remote_api(
     prompt: str,
     image_path: Optional[str] = None,
     output_dir: str = "./img",
     output_name_prefix: str = "generated_output",
-    model: str = DEFAULT_MODEL,
-    base_url: str = DEFAULT_BASE_URL,
+    backend: str = DEFAULT_BACKEND,
     token: Optional[str] = None,
+    # Legacy params (ignored for gpt-image-2, kept for Gemini compat)
+    model: str = "",
+    base_url: str = "",
 ) -> List[str]:
-    if image_path:
-        return ImageGenerator.generate_image(
-            image_path=image_path,
+    """Generate images from text (or image+text for Gemini backend).
+
+    Args:
+        backend: "gpt-image-2" (default) or "gemini".
+    """
+    if backend == "gemini":
+        return GeminiBackend.generate(
             prompt=prompt,
             output_dir=output_dir,
             output_name_prefix=output_name_prefix,
-            model=model,
-            base_url=base_url,
+            image_path=image_path,
             token=token,
         )
-    return ImageGenerator.generate_from_text(
+
+    # Default: gpt-image-2
+    if image_path:
+        print("Warning: gpt-image-2 does not support image-to-image. Ignoring image_path.")
+    return GPTImageBackend.generate(
         prompt=prompt,
         output_dir=output_dir,
         output_name_prefix=output_name_prefix,
-        model=model,
-        base_url=base_url,
         token=token,
     )
 
@@ -195,21 +263,23 @@ def main() -> None:
         "--image-path",
         required=False,
         default=None,
-        help="Optional input image path for image-to-image generation.",
+        help="Optional input image path (Gemini backend only).",
     )
     parser.add_argument("--prompt", required=True, help="Prompt for generation.")
     parser.add_argument("--output-dir", default="./img", help="Output directory.")
     parser.add_argument(
         "--output-prefix", default="generated_output", help="Output file prefix."
     )
-    parser.add_argument("--model", default=DEFAULT_MODEL, help="Remote model name.")
     parser.add_argument(
-        "--base-url", default=DEFAULT_BASE_URL, help="Remote API base URL."
+        "--backend",
+        default=DEFAULT_BACKEND,
+        choices=["gpt-image-2", "gemini"],
+        help="Image generation backend (default: gpt-image-2).",
     )
     parser.add_argument(
         "--token",
         default=None,
-        help="Bearer token; if omitted will use REMOTE_IMAGE_API_TOKEN env var.",
+        help="API token; if omitted will use REMOTE_IMAGE_API_TOKEN env var.",
     )
     args = parser.parse_args()
 
@@ -218,8 +288,7 @@ def main() -> None:
         image_path=args.image_path,
         output_dir=args.output_dir,
         output_name_prefix=args.output_prefix,
-        model=args.model,
-        base_url=args.base_url,
+        backend=args.backend,
         token=args.token,
     )
     print(f"\nSaved {len(paths)} image(s).")

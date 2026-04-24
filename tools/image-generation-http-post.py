@@ -59,7 +59,7 @@ PAYLOAD_BASE = {
     "size": "1024x1024",
     "n": 1,
     "output_format": "png",
-    "quality": "medium",
+    "quality": "low",
 }
 
 

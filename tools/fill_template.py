@@ -315,8 +315,8 @@ def fix_nary_elements(root):
                 sup_hide = etree.SubElement(nary_pr, qn(M, "supHide"))
             sup_hide.set(qn(M, "val"), "1")
 
-        elif not sub_text and not sup_text:
-            # No sub/sup at all: hide sup
+        elif not sup_text:
+            # Has subscript but no superscript (e.g. \prod_{t}), or no sub/sup at all: hide sup
             sup_hide = nary_pr.find(qn(M, "supHide"))
             if sup_hide is None:
                 sup_hide = etree.SubElement(nary_pr, qn(M, "supHide"))
@@ -1038,6 +1038,53 @@ def load_template():
     return template_files
 
 
+# ── Tech area extraction ─────────────────────────────────────────────────
+
+def _extract_tech_area(title):
+    """从交底书名称中提取简短的技术领域描述，不照搬全名。
+
+    例如:
+      "一种基于最优化算法的动捕精修任务分配方法、装置..." → "动捕精修任务分配技术"
+      "一种基于逐骨变分自编码器与潜空间流匹配扩散变换器的蒙皮权重生成方法..." → "蒙皮权重自动生成技术"
+      "一种基于沙漏自回归Transformer的骨骼蒙皮方法..." → "骨骼蒙皮自动化技术"
+    """
+    if not title:
+        return "技术方案"
+
+    # 去掉常见的前后缀
+    cleaned = title
+    for prefix in ["一种", "基于"]:
+        if cleaned.startswith(prefix):
+            cleaned = cleaned[len(prefix):]
+
+    # 去掉"方法、装置、电子设备及存储介质"等后缀
+    for suffix in ["方法、装置、电子设备及存储介质",
+                    "方法、装置及存储介质",
+                    "方法、系统及存储介质",
+                    "方法及系统", "方法及装置",
+                    "方法", "系统", "装置"]:
+        idx = cleaned.find(suffix)
+        if idx > 0:
+            cleaned = cleaned[:idx]
+            break
+
+    # 从 "基于XX的YY" 模式中提取 YY 部分
+    m = re.match(r'.*?的(.+)', cleaned)
+    if m:
+        core = m.group(1).strip()
+    else:
+        core = cleaned.strip()
+
+    # 限制长度，加上"技术"后缀
+    if len(core) > 20:
+        core = core[:20]
+
+    if not core.endswith("技术"):
+        core = core + "技术"
+
+    return core
+
+
 # ── Main fill logic ───────────────────────────────────────────────────────
 
 def fill_patent(patent_dir):
@@ -1065,12 +1112,8 @@ def fill_patent(patent_dir):
     title = sections.get('title', patent_name)
     print(f"  Title: {title[:60]}...")
 
-    # Extract tech_area from title or fallback
-    tech_area = "技术方案"
-    if title:
-        # Try to infer tech area from common title patterns
-        # e.g. "基于XX的YY方法" -> use full title as tech area hint
-        tech_area = title if len(title) <= 30 else title[:30]
+    # Extract tech_area: a short description of the technology domain, NOT the full title
+    tech_area = _extract_tech_area(title)
 
     # Load template
     print("  Loading template...")
