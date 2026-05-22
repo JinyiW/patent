@@ -1,0 +1,4 @@
+fig_1_system_arch_0.png  图1 无真值蒙皮质量自动评估与数据闭环系统总体架构图
+fig_2_pluggable_arch_0.png  图2 可插拔多指标评估器架构示意图
+fig_3_data_loop_0.png  图3 数据闭环执行流程图
+fig_4_quality_gate_arch_0.png  图4 质量闸门三级部署架构图

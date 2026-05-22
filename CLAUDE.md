@@ -4,7 +4,9 @@
 专利交底书撰写项目。以 Markdown 为源，填充到 `发明专利技术交底书模板.docx` 模板中，生成含 OMML 原生公式和技术插图的 Word 文档。支持任意技术领域。
 
 ## 已归档专利（只读）
-`archive/` 下的 patent_01~05 已定版，**不得修改**，除非用户明确要求。
+`patents/patent_01_*` ~ `patents/patent_05_*` 已定版，**不得修改**，除非用户明确要求。
+对外提交的中文命名版（如代理所/法务版）置于 `patents/submissions/`。
+前 5 件专利的原始素材总表见 `patents/_archive_briefs/back.md`。
 
 ## 新专利工作流
 
@@ -45,13 +47,14 @@ python tools/fill_template.py             # 批量处理所有专利
 
 ```
 zhuanli/
-├── patents/                           # 新专利工作区
-│   └── patent_<NN>_<topic>_<date>/
-│       ├── brief.md                   #   技术素材输入
-│       ├── patent_<NN>_disclosure.md  #   交底书 Markdown 源
-│       ├── patent_<NN>_disclosure.docx#   Word 交付版（基于模板）
-│       └── figures/                   #   该专利插图
-├── archive/                           # 已定版专利（只读）
+├── patents/                           # 专利工作区
+│   ├── patent_<NN>_<topic>_<date>/
+│   │   ├── brief.md                   #   技术素材输入（patent_06 起；patent_01~05 无）
+│   │   ├── patent_<NN>_disclosure.md  #   交底书 Markdown 源
+│   │   ├── patent_<NN>_disclosure.docx#   Word 交付版（基于模板）
+│   │   └── figures/                   #   该专利插图（含 captions.txt）
+│   ├── submissions/                   # 对外提交的中文命名版 docx（patent_01~05）
+│   └── _archive_briefs/back.md        # 前 5 件专利的原始素材总表
 ├── tools/                             # 工具
 │   ├── fill_template.py               #   ★ 主工具：填充模板 + 公式 + 插图
 │   ├── gen_figures.py                 #   文生图

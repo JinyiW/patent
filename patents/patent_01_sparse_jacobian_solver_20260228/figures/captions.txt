@@ -1,0 +1,4 @@
+fig_1_system_flow_0.png  图1 基于稀疏雅可比矩阵的反向蒙皮权重求解系统总体流程图
+fig_2_sparse_vs_dense_0.png  图2 稀疏雅可比矩阵与稠密雅可比矩阵结构对比示意图
+fig_3_vertex_bone_subspace_0.png  图3 顶点—骨骼局部子空间与邻接稀疏结构示意图
+fig_4_objective_function_0.png  图4 目标函数与约束条件组成示意图

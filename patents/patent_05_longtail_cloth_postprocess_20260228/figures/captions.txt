@@ -1,0 +1,5 @@
+fig_1_closed_loop_pipeline_0.png  图1 平滑—映射—回写确定性后处理总体闭环流程图
+fig_2_anomaly_region_0.png  图2 异常区域构建与候选骨骼集合示意图
+fig_3_smoothing_comparison_0.png  图3 期望几何平滑前后对比示意图
+fig_4_rollback_decision_tree_0.png  图4 退化重试与回退决策树
+fig_5_retry_rollback_flow_0.png  图5 确定性后处理重试与回退决策流程图

@@ -1,0 +1,5 @@
+fig_1_dual_phase_framework_0.png  图1 穿插与粘连检测粗筛—精筛双阶段框架图
+fig_2_penetration_0.png  图2 穿插现象与几何特征示意图
+fig_3_sticking_0.png  图3 粘连现象与几何特征示意图
+fig_4_valid_contact_0.png  图4 正常接触与异常接触区分判定示意图
+fig_5_pen_vs_stick_comparison_0.png  图5 穿插与粘连特征对比示意图

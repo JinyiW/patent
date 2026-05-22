@@ -191,7 +191,7 @@ $$
 
 该三类规则的组合是本发明区别于纯距离阈值方案的核心差异所在。
 
-![图5 穿插与粘连特征对比示意图](fig_4_5_pen_vs_stick_comparison_0.png)
+![图5 穿插与粘连特征对比示意图](figures/fig_5_pen_vs_stick_comparison_0.png)
 
 #### 3.2.7 时序平滑与滞回告警
 

@@ -7,13 +7,14 @@
 
 ```
 zhuanli/
-├── patents/                               # 新专利工作区
-│   └── patent_<NN>_<主题>_<日期>/
-│       ├── brief.md                       #   技术素材（结构化输入）
-│       ├── patent_<NN>_disclosure.md      #   交底书 Markdown 源
-│       ├── patent_<NN>_disclosure.docx    #   Word 交付版（基于模板）
-│       └── figures/                       #   该专利插图
-├── archive/                               # 已定版专利归档（只读）
+├── patents/                               # 专利工作区
+│   ├── patent_<NN>_<主题>_<日期>/
+│   │   ├── brief.md                       #   技术素材（结构化输入；patent_06 起；patent_01~05 无）
+│   │   ├── patent_<NN>_disclosure.md      #   交底书 Markdown 源
+│   │   ├── patent_<NN>_disclosure.docx    #   Word 交付版（基于模板）
+│   │   └── figures/                       #   该专利插图（含 captions.txt）
+│   ├── submissions/                       # 对外提交的中文命名版 docx（patent_01~05）
+│   └── _archive_briefs/back.md            # 前 5 件专利的原始素材总表
 ├── tools/                                 # 工具
 │   ├── fill_template.py                   #   ★ 主工具：填充模板+公式+插图
 │   ├── gen_figures.py                     #   文生图
@@ -23,6 +24,8 @@ zhuanli/
 ├── 发明专利技术交底书模板.docx            #   ★ Word 模板（必需）
 └── archive_tools/                         # 旧工具归档
 ```
+
+> patent_01~05 已定版只读，除非明确要求否则不修改。
 
 ## 新增专利流程
 
