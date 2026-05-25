@@ -33,7 +33,15 @@ STYLE_PROMPT = (
     "light blue (#4A90D9), warm orange (#E8A849), soft green (#5CB85C), "
     "muted purple (#9B59B6), and light gray (#F0F0F0) for backgrounds. "
     "Use clean vector-style boxes with rounded corners, neat arrows, "
-    "and professional sans-serif typography. Label all text in English. "
+    "and professional sans-serif typography. "
+    # ── 文字语言：所有图内文字（标题、子图标签、图例、坐标轴、变量说明）统一中文 ──
+    "ALL on-figure text MUST be in Simplified Chinese (简体中文): titles, axis labels, "
+    "legend entries, sub-figure captions, and any explanatory text. "
+    "ONLY mathematical variable names and formulas may stay in Latin/Greek letters. "
+    # ── 画布尺寸：按内容自然布局选择宽高比，不要硬塞 1:1 ──
+    "Choose the canvas aspect ratio to MATCH the natural layout of the content "
+    "(wide 3:2 for side-by-side panels or flowcharts, square 1:1 only for genuinely "
+    "square content). Do NOT stretch or squash content to fit a fixed aspect. "
     "The diagram should look publication-ready, with consistent spacing, "
     "alignment, and visual hierarchy. "
     "Do NOT use hand-drawn style, 3D effects, or decorative elements. "

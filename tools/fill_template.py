@@ -113,15 +113,28 @@ def make_paragraph(runs=None, indent=False, center=False, spacing=True):
     return p
 
 
-def make_image_paragraph(rid, img_name, doc_pr_id, cx_emu=None, cy_emu=None):
+def make_image_paragraph(rid, img_name, doc_pr_id, cx_emu=None, cy_emu=None, fig_path=None):
     """Create a centered image paragraph with drawing.
-    cx_emu/cy_emu: image dimensions in EMU (English Metric Units, 914400 EMU = 1 inch).
-    If not provided, defaults to 5in x 2.73in (matching 1408x768 source aspect ratio).
+
+    cx_emu/cy_emu: image dimensions in EMU (914400 EMU = 1 inch).
+    If not provided, the function tries to read the source image (`fig_path`) with
+    PIL to compute a 5-inch-wide box that preserves the original aspect ratio.
+    Only if PIL/path is unavailable does it fall back to a square 5in×5in box —
+    we never assume a fixed 1408×768 ratio anymore, since the figure pipeline
+    now produces a mix of 1024×1024, 1536×1024, etc.
     """
     if cx_emu is None or cy_emu is None:
-        # Default: 5 inches wide, maintain 1408:768 aspect ratio
-        cx_emu = 4572000  # 5 inches
-        cy_emu = 2494171  # 5 * 768/1408 inches = 2.727 inches
+        target_w = 4572000  # 5 inches
+        cx_emu = target_w
+        cy_emu = target_w  # square fallback
+        if fig_path and os.path.exists(fig_path):
+            try:
+                from PIL import Image as PILImage
+                with PILImage.open(fig_path) as img:
+                    iw, ih = img.size
+                cy_emu = int(target_w * ih / iw)
+            except Exception as e:
+                print(f"    [warn] PIL failed for {fig_path}: {e}; using square fallback")
 
     cx_str = str(int(cx_emu))
     cy_str = str(int(cy_emu))
@@ -246,6 +259,9 @@ def latex_to_omml(latex_str, display=False):
     # Fix nary elements
     fix_nary_elements(omml_el)
 
+    # Fix radicals: square roots with no <m:deg> render with a blank degree slot in Word.
+    fix_rad_elements(omml_el)
+
     # Fix groupChr -> acc: mathml2omml uses groupChr for \bar{}, \hat{} etc.
     # which causes content to render at subscript-like small size in Word.
     # Word natively uses m:acc (accent) for these -- convert.
@@ -321,6 +337,31 @@ def fix_nary_elements(root):
             if sup_hide is None:
                 sup_hide = etree.SubElement(nary_pr, qn(M, "supHide"))
             sup_hide.set(qn(M, "val"), "1")
+
+
+def fix_rad_elements(root):
+    """Fix radical (sqrt) elements in OMML.
+
+    mathml2omml emits `<m:rad>` for `\\sqrt{x}` without any `<m:deg>` and without
+    `<m:degHide>`, which leaves an empty degree slot Word renders as a blank box
+    above the radical. We fix this by:
+      - if `<m:deg>` is absent: add `<m:radPr><m:degHide m:val="1"/></m:radPr>`
+        so Word knows to suppress the degree slot (this is how Word natively
+        encodes a square root).
+      - if `<m:deg>` is present (cube root etc.): leave it alone.
+    """
+    for rad in root.iter(qn(M, "rad")):
+        deg = rad.find(qn(M, "deg"))
+        if deg is not None and len(deg) > 0:
+            continue  # explicit nth-root, keep as-is
+        rad_pr = rad.find(qn(M, "radPr"))
+        if rad_pr is None:
+            rad_pr = etree.Element(qn(M, "radPr"))
+            rad.insert(0, rad_pr)
+        deg_hide = rad_pr.find(qn(M, "degHide"))
+        if deg_hide is None:
+            deg_hide = etree.SubElement(rad_pr, qn(M, "degHide"))
+        deg_hide.set(qn(M, "val"), "1")
 
 
 def _fix_groupchr_to_acc(root):
@@ -959,19 +1000,20 @@ def _insert_images_into_document(body, image_rids, figure_files, captions_dict=N
     insert_ops.sort(key=lambda x: (_child_index(x[0]), _fig_num(x)), reverse=True)
 
     for anchor, rid, img_name, doc_pr_id, caption, fig_path in insert_ops:
-        # Read original image dimensions to preserve aspect ratio
+        # Compute aspect-ratio-preserving box from the actual source image.
+        # We pass fig_path through; make_image_paragraph will PIL-probe it.
         cx_emu, cy_emu = None, None
         if fig_path and os.path.exists(fig_path):
             try:
                 from PIL import Image as PILImage
                 with PILImage.open(fig_path) as img:
                     iw, ih = img.size
-                target_w = 4572000
+                target_w = 4572000  # 5 inches
                 cx_emu = target_w
                 cy_emu = int(target_w * ih / iw)
             except Exception:
                 pass
-        img_p = make_image_paragraph(rid, img_name, doc_pr_id, cx_emu, cy_emu)
+        img_p = make_image_paragraph(rid, img_name, doc_pr_id, cx_emu, cy_emu, fig_path=fig_path)
         cap_p = make_image_caption(caption)
         anchor.addnext(cap_p)
         anchor.addnext(img_p)
