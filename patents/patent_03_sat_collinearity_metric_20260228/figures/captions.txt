@@ -1,5 +1,5 @@
 fig_1_sat_projection_0.png  图1 分离轴定理（SAT）投影原理示意图
-fig_2_detection_objects_0.png  图2 共线/形变检测对象构建示意图
+fig_2_detection_objects_0.png  图2 检测对象构建：边链滑动窗口与面片簇广度优先扩张示意图
 fig_3_detection_pipeline_0.png  图3 SAT共线与形变异常检测流程框架图
-fig_4_temporal_persistence_0.png  图4 跨帧持续性判定与时序平滑示意图
-fig_5_sat_collinear_principle_0.png  图5 SAT多轴投影共线检测原理示意图
+fig_4_sat_collinear_principle_0.png  图4 SAT多轴投影共线检测原理示意图
+fig_5_temporal_persistence_0.png  图5 跨帧持续性判定与时序平滑示意图
