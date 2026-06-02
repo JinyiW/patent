@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Bash",
+      "Grep",
+      "Glob",
+      "WebSearch",
+      "WebFetch",
+      "TaskCreate",
+      "TaskGet",
+      "TaskUpdate",
+      "TaskList",
+      "TaskOutput",
+      "TaskStop",
+      "Agent",
+      "EnterPlanMode",
+      "ExitPlanMode",
+      "AskUserQuestion",
+      "ToolSearch",
+      "DeferExecuteTool",
+      "SendMessage",
+      "Skill",
+      "mcp__*"
+    ]
+  }
+}
