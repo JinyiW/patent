@@ -3,6 +3,18 @@
 ## 项目概述
 以 Markdown 为源文件，填充到 `发明专利技术交底书模板.docx` 模板中，生成含 OMML 原生公式和技术插图的 Word 文档。支持任意技术领域。
 
+## 环境准备（本地 macOS）
+
+本机默认 `python3` 为系统 Python 3.9 且无 `python` 命令，统一使用项目本地虚拟环境 `.venv`：
+
+```bash
+bash setup_env.sh              # 创建 .venv 并安装 requirements.txt（仅首次）
+source .venv/bin/activate      # 激活后可直接用 python
+# 或免激活直接调用：.venv/bin/python tools/...
+```
+
+依赖：`lxml`, `latex2mathml`, `mathml2omml`, `requests`, `pillow`, `matplotlib`（见 `requirements.txt`）。
+
 ## 目录结构
 
 ```
@@ -35,8 +47,8 @@ zhuanli/
 4. 生成插图并填充模板：
 
 ```bash
-python tools/gen_figures.py patent_06      # 根据 brief.md 生成插图到 figures/
-python tools/fill_template.py patent_06    # 填充模板，图文交叉插入，输出 DOCX
+.venv/bin/python tools/gen_figures.py patent_06      # 根据 brief.md 生成插图到 figures/
+.venv/bin/python tools/fill_template.py patent_06    # 填充模板，图文交叉插入，输出 DOCX
 ```
 
 ## disclosure.md 章节结构
@@ -63,5 +75,5 @@ python tools/fill_template.py patent_06    # 填充模板，图文交叉插入�
 ## 技术要点
 - 公式：LaTeX → MathML → OMML（Word 原生可编辑公式）
 - 模板操作：`lxml` 直接操作 OOXML
-- 依赖：`latex2mathml`, `mathml2omml`, `lxml`
-- 插图：Gemini text-to-image API，顶会论文风格（SIGGRAPH/NeurIPS 配色）
+- 依赖：`latex2mathml`, `mathml2omml`, `lxml`（图片与流程图另需 `requests`/`pillow`/`matplotlib`）
+- 插图：默认 GPT-Image-2（Azure 代理）text-to-image，Gemini 为 fallback；结构化流程图优先用 matplotlib 代码生成。顶会论文风格（SIGGRAPH/NeurIPS 配色）

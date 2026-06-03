@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 tools/img/
+.venv/
+.DS_Store

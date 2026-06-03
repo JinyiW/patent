@@ -1,0 +1,6 @@
+lxml
+latex2mathml
+mathml2omml
+requests
+pillow
+matplotlib
